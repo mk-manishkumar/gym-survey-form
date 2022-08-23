@@ -1,0 +1,70 @@
+body {
+  background: url(assets/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.8;
+  padding: 1rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 3%;
+  padding: 1.5rem;
+}
+
+#title {
+  font-size: 4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+.h-w {
+  margin-top: 2%;
+}
+
+#height,
+#weight {
+  margin-left: 2%;
+}
+
+.dropdown {
+  height: 35px;
+  width: 9rem;
+  margin-left: 2%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#submit {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-left: 40%;
+  opacity: 1;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 410px) {
+  .container {
+    width: 100%;
+    margin-top: 8%;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
